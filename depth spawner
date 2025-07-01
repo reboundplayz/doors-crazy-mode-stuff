@@ -39,15 +39,15 @@ local entity = Spawner.createEntity({
         true, -- Enabled/Disabled
         {
             Type = "1", -- "Normal" or 1 | "Pop" or 2 | "endlessdoorsrebound" or "Rebound" or 3 | More coming Soon
-            Image1 = "nil", -- Image1 url
-            Image2 = "https://static.wikia.nocookie.net/fanmade-doors/images/8/8f/DepthEntity.png/revision/latest?cb=20220913015153", -- Image2 url
+            Image1 = "rbxassetid://18772587322", -- Image1 url
+            Image2 = "rbxassetid://18772587322", -- Image2 url
             Shake = true,
             Sound1 = {
-                "nil", -- SoundId Link or Roblox ID
+                "0", -- SoundId Link or Roblox ID
                 { Volume = 0 }, -- Sound properties
             },
             Sound2 = {
-                "https://github.com/reboundplayz/doors-crazy-mode-stuff/raw/refs/heads/main/Project%20Name%204.mp3", -- SoundId Link or Roblox ID
+                "5263560566", -- SoundId Link or Roblox ID
                 { Volume = 10 }, -- Sound properties
             },
             Flashing = {
@@ -56,8 +56,8 @@ local entity = Spawner.createEntity({
             },
             Tease = {
                 false, -- Enabled/Disabled
-                Min = 0,
-                Max = 0,
+                Min = 1,
+                Max = 3,
             },
         },
     },
